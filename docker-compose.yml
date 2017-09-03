@@ -1,0 +1,6 @@
+version: '3'
+
+services:
+  man:
+    build: .
+    image: jdesmedt/crosscompile-i686-elf
